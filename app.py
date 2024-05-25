@@ -15,6 +15,8 @@ y_le = le.fit_transform(y)
 
 st.title('Crop Recommendation')
 
+st.image('farm.jpeg')
+
 nitrogen = st.number_input(label='Amount of Nitrogen:',step=1,min_value=0,max_value=145)
 
 phosphorous = st.number_input(label='Amount of Phosphorous:',step=1,min_value=0,max_value=150)
